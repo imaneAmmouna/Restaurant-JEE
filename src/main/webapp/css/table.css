@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+    fieldset {
+        margin: 20px 0;
+        padding: 20px;
+        border: 1px solid #784726;
+        border-radius: 8px;
+        
+    }
+
+    legend {
+        font-size: 1.2em;
+        font-weight: bold;
+        color: #784726;
+        padding: 0 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+    }
+
+    th, td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid #d2ae93;
+    }
+
+    th {
+        background-color: #a7512a;
+        color: #fffcec;
+    }
+
+    td {
+        background-color: #fffcec;
+        color: #784726;
+    }
+
+    td form {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    input[type="submit"] {
+        padding: 8px 16px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        background-color: #de6206;
+        color: white;
+        transition: background-color 0.3s;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #fb9447;
+    }
+
+    input[type="submit"]:focus {
+        outline: none;
+        box-shadow: 0 0 5px rgba(255, 165, 0, 0.5);
+    }
+
+    td input[type="submit"] {
+        margin-right: 10px;
+    }
+
+    /* Mise en surbrillance des lignes lors du survol */
+    tr:hover {
+        background-color: #f7efca;
+    }
+
+    /* Pour les messages de confirmation */
+    form[onsubmit] {
+        margin: 0;
+    }
+
+    /* Stylisation générale du corps de la page */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #F7EFCA;
+        margin: 0;
+        padding: 0;
+    }
